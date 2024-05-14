@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../picture/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    padding: 80px;
+    text-align: center;
+    position: center;
+    font-family: "Montserrat";
+    color: #0fdbe3;
+    font-size: 60px;
+}
+table {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* 设置边框样式 */
+}
+td, th {
+    padding: 10px; /* 设置单元格填充 */
+}
+tr:nth-child(even) {
+    background-color: #47d0d0; /* 添加斑马线条纹 */
+}
+tr:nth-child(odd) {
+    background-color: #d9d7da; /* 添加斑马线条纹 */
+}
+th {
+    background-color: #4CAF50; /* 设置表头背景颜色 */
+    color: white; /* 设置表头文字颜色 */
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* 导航链接 */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* 鼠标悬停效果 */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
